@@ -1,21 +1,28 @@
-import openai
+import anthropic
 import backoff
 import time
 import random
-from openai.error import RateLimitError, APIError, ServiceUnavailableError, APIConnectionError
-from .openai_utils import OutOfQuotaException, AccessTerminatedException
-from .openai_utils import num_tokens_from_string, model2max_context
+from anthropic import Anthropic, RateLimitError, APIError, APIConnectionError, APIStatusError
+# from .openai_utils import OutOfQuotaException, AccessTerminatedException
+# from .openai_utils import num_tokens_from_string, model2max_context
 
-support_models = ['gpt-3.5-turbo', 'gpt-3.5-turbo-0301', 'gpt-4', 'gpt-4-0314']
+support_models = ['claude-sonnet-4-5-20250929', 'claude-3-5-sonnet-20241022', 'claude-3-opus-20240229', 'claude-3-sonnet-20240229','claude-3-haiku-20240307']
+model2max_context = {'claude-sonnet-4-5-20250929': 200000, 'claude-3-5-sonnet-20241022': 200000, 'claude-3-opus-20240229': 200000, 'claude-3-sonnet-20240229': 200000, 'claude-3-haiku-20240307': 200000}
+
+def num_tokens_from_string(string: str, model_name:str) -> int:
+    """Estimate token count for Claude models"""
+    # 1 token = 3.5 characters
+    return int(len(string) / 3.5)
 
 class Agent:
-    def __init__(self, model_name: str, name: str, temperature: float, sleep_time: float=0) -> None:
+    def __init__(self, model_name: str, name: str, temperature: float, api_key:str, sleep_time: float=0) -> None:
         """Create an agent
 
         Args:
             model_name(str): model name
             name (str): name of this agent
             temperature (float): higher values make the output more random, while lower values make it more focused and deterministic
+            api_key (str): 
             sleep_time (float): sleep because of rate limits
         """
         self.model_name = model_name
@@ -23,15 +30,18 @@ class Agent:
         self.temperature = temperature
         self.memory_lst = []
         self.sleep_time = sleep_time
+        self.anthropic_api_key = api_key
+        self.client = anthropic.Anthropic(api_key=api_key)
+        self.system_prompt = None
 
-    @backoff.on_exception(backoff.expo, (RateLimitError, APIError, ServiceUnavailableError, APIConnectionError), max_tries=20)
+    @backoff.on_exception(backoff.expo, (RateLimitError, APIError, APIConnectionError, APIStatusError), max_tries=20)
     def query(self, messages: "list[dict]", max_tokens: int, api_key: str, temperature: float) -> str:
         """make a query
 
         Args:
             messages (list[dict]): chat history in turbo format
             max_tokens (int): max token in api call
-            api_key (str): openai api key
+            api_key (str): anthropic api key
             temperature (float): sampling temperature
 
         Raises:
@@ -44,22 +54,36 @@ class Agent:
         time.sleep(self.sleep_time)
         assert self.model_name in support_models, f"Not support {self.model_name}. Choices: {support_models}"
         try:
+            claude_messages = []
+            system_message = self.system_prompt
+            
+            for msg in messages:
+                if msg["role"] == "system":
+                    if system_message:
+                        system_message += "\n\n" + msg["content"]
+                    else:
+                        system_message = msg["content"]
+                else:
+                    claude_messages.append({"role":msg["role"], "content":msg["content"]})
+
+                    
             if self.model_name in support_models:
-                response = openai.ChatCompletion.create(
+                response = self.client.messages.create(
                     model=self.model_name,
-                    messages=messages,
+                    messages=claude_messages,
                     temperature=temperature,
                     max_tokens=max_tokens,
-                    api_key=api_key,
+                    system=system_message if system_message else None
                 )
-                gen = response['choices'][0]['message']['content']
-            return gen
+
+                gen = response.content[0].text
+                return gen
 
         except RateLimitError as e:
             if "You exceeded your current quota, please check your plan and billing details" in e.user_message:
-                raise OutOfQuotaException(api_key)
+                raise e
             elif "Your access was terminated due to violation of our policies" in e.user_message:
-                raise AccessTerminatedException(api_key)
+                raise e
             else:
                 raise e
 
@@ -69,6 +93,7 @@ class Agent:
         Args:
             meta_prompt (str): the meta prompt
         """
+        self.system_prompt = meta_prompt
         self.memory_lst.append({"role": "system", "content": f"{meta_prompt}"})
 
     def add_event(self, event: str):
@@ -95,6 +120,16 @@ class Agent:
         """
         # query
         num_context_token = sum([num_tokens_from_string(m["content"], self.model_name) for m in self.memory_lst])
-        max_token = model2max_context[self.model_name] - num_context_token
-        return self.query(self.memory_lst, max_token, api_key=self.openai_api_key, temperature=temperature if temperature else self.temperature)
+        max_output_token = min(4096, model2max_context[self.model_name] - num_context_token - 1000)
+        if max_output_token < 100:
+            raise ValueError("Context window is nearly full. Truncate conversation history")
+        
+        return self.query(self.memory_lst, max_output_token, api_key=self.anthropic_api_key, temperature=temperature if temperature is not None else self.temperature)
 
+#Example
+if __name__ == "__main__":
+    agent = Agent(model_name="claude-3-haiku-20240307",name="Assistant",temperature=0.7, api_key="insert api key")
+    agent.set_meta_prompt("You are a helpful AI assistant.")
+    agent.add_event("what is the capital of India?")
+    response = agent.ask()
+    agent.add_memory(response)
