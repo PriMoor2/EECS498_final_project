@@ -25,7 +25,7 @@ import re
 from code.utils.agent import Agent
 
 
-anthropic_api_key = "insert api key"
+anthropic_api_key = "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"
 
 NAME_LIST=[
     "Affirmative side",
@@ -115,15 +115,26 @@ class Debate:
         self.affirmative.add_memory(self.aff_ans)
         self.config['base_answer'] = self.aff_ans
 
+        print("af---------------------")
+
         self.negative.add_event(self.config['negative_prompt'].replace('##aff_ans##', self.aff_ans))
         self.neg_ans = self.negative.ask()
         self.negative.add_memory(self.neg_ans)
 
+        print("n---------------------")
+
         self.moderator.add_event(self.config['moderator_prompt'].replace('##aff_ans##', self.aff_ans).replace('##neg_ans##', self.neg_ans).replace('##round##', 'first'))
         self.mod_ans = self.moderator.ask()
+        # print("AFTER ASK")
+        # print(self.mod_ans)
+        # print("---------------------")
+        print("1---------------------")
         self.moderator.add_memory(self.mod_ans)
         #self.mod_ans = eval(self.mod_ans)
+        print("2_____________")
         self.mod_ans = self.safe_parse_json(self.mod_ans, "moderator round 1")
+        print("3---------------------")
+        print(self.mod_ans)
 
     def round_dct(self, num: int):
         dct = {
@@ -160,8 +171,9 @@ class Debate:
             return result
         except json.JSONDecodeError:
             pass
-
+        
         print(f"could not parse {context}")
+        print(context)
 
         return{
             "debate_answer":"",
@@ -217,8 +229,9 @@ class Debate:
 
         for round in range(self.max_round - 1):
             print("entered for loop")
+            print(self.mod_ans["debate_answer"])
 
-            if False: #self.mod_ans.get("debate_answer", "") != ''
+            if self.mod_ans["debate_answer"] != '': #self.mod_ans.get("debate_answer", "") != ''  --or-- false
                 print("entered if")
                 break
             else:
@@ -239,7 +252,7 @@ class Debate:
                 # self.mod_ans = eval(self.mod_ans)
 
 
-        if self.mod_ans.get("debate_answer", "") != '':
+        if self.mod_ans["debate_answer"] != '':
             print("entered if")
             self.config.update(self.mod_ans)
             self.config['success'] = True
@@ -305,7 +318,7 @@ if __name__ == "__main__":
             config = json.load(open(f"{MAD_path}/code/utils/config4all.json", "r"))
             config['debate_topic'] = debate_topic
 
-            debate = Debate(model_name='claude-sonnet-4-5-20250929',num_players=3, anthropic_api_key=anthropic_api_key, config=config, temperature=0.7, sleep_time=0)
+            debate = Debate(model_name='claude-3-haiku-20240307',num_players=3, anthropic_api_key=anthropic_api_key, config=config, temperature=0.7, sleep_time=0)
             print("about to enter run")
             debate.run()
             print("finished run")

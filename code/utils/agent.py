@@ -128,7 +128,7 @@ class Agent:
 
 #Example
 if __name__ == "__main__":
-    agent = Agent(model_name="claude-3-haiku-20240307",name="Assistant",temperature=0.7, api_key="insert api key")
+    agent = Agent(model_name="claude-3-haiku-20240307",name="Assistant",temperature=0.7, api_key="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")
     agent.set_meta_prompt("You are a helpful AI assistant.")
     agent.add_event("what is the capital of India?")
     response = agent.ask()

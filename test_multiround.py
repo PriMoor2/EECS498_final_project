@@ -14,7 +14,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from interactive import Debate
 
 # Your API key
-anthropic_api_key = "insert api key"
+anthropic_api_key = "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"
 
 def test_multi_round_debate():
     """Test that debates can go multiple rounds"""
