@@ -1,0 +1,302 @@
+[
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The hairs are very long.",
+    "bleurt_score": 0.7586516737937927
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "He/She/It will not come today.",
+    "bleurt_score": -0.4401390552520752
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "His/Her hand is clean",
+    "bleurt_score": -1.3423881530761719
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He fell from above.",
+    "bleurt_score": 1.1038005352020264
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "My heart settled down",
+    "bleurt_score": -1.1489969491958618
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something’s fishy",
+    "output": "There is something dark/murky in the lentils.",
+    "bleurt_score": -0.9747026562690735
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He/She reached the sky.",
+    "bleurt_score": -1.486193299293518
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "Yesterday, I was very far behind.",
+    "bleurt_score": 0.966357409954071
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "Her eyes were opened",
+    "bleurt_score": -1.4803287982940674
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our hands and feet are swollen.",
+    "bleurt_score": -1.6857948303222656
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "the pupil of the eye",
+    "bleurt_score": -1.8158268928527832
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "He is counting the raindrops.",
+    "bleurt_score": -1.5144338607788086
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "He is sitting with his hands folded.",
+    "bleurt_score": 0.013487670570611954
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He has gone",
+    "bleurt_score": 0.44356805086135864
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He went upstairs",
+    "bleurt_score": -1.2937055826187134
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He passed away",
+    "bleurt_score": 0.5639930367469788
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "I am cold",
+    "bleurt_score": -0.33444929122924805
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "He is heavy",
+    "bleurt_score": -0.5310906767845154
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "He has a big heart",
+    "bleurt_score": -0.17018525302410126
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "He is clean",
+    "bleurt_score": -0.22061696648597717
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "He is light.",
+    "bleurt_score": -0.8684486150741577
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "He is upright",
+    "bleurt_score": -0.9874393343925476
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He spoke in a loud voice.",
+    "bleurt_score": 0.15682384371757507
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "He is big.",
+    "bleurt_score": -0.8641949892044067
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "His face fell.",
+    "bleurt_score": -0.4341748356819153
+  },
+  {
+    "input": "वह चला रहा है",
+    "reference": "He is driving",
+    "output": "He is leaving",
+    "bleurt_score": -0.5281770825386047
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He is not doing the work",
+    "bleurt_score": -0.7098240256309509
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "His/Her mood is bad.",
+    "bleurt_score": -0.8778027296066284
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "He/She/It got burned",
+    "bleurt_score": -1.831139326095581
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "It is open.",
+    "bleurt_score": -0.07852508127689362
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "It broke in my hands.",
+    "bleurt_score": -0.48039910197257996
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "His/Her face is shining.",
+    "bleurt_score": -1.3067411184310913
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "He was shaken",
+    "bleurt_score": -0.07353894412517548
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This is a big deal",
+    "bleurt_score": 0.38974860310554504
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "He/She is unwell",
+    "bleurt_score": -0.8965635895729065
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is walking",
+    "bleurt_score": -1.6774057149887085
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "It is empty",
+    "bleurt_score": -0.8909909725189209
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "His mind is blank",
+    "bleurt_score": -0.8298013806343079
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That is a heavy task",
+    "bleurt_score": 0.2490081489086151
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "He is a down-on-his-luck man",
+    "bleurt_score": -0.9395844340324402
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He has a sharp mind",
+    "bleurt_score": 0.05606107786297798
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He spoke in a soft voice.",
+    "bleurt_score": 0.9201226234436035
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He speaks in a high-pitched manner",
+    "bleurt_score": 0.5611085295677185
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He is standing on his own two feet.",
+    "bleurt_score": -0.795490562915802
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "heartache or heartbreak",
+    "bleurt_score": 0.04567542299628258
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "His mind is damaged/impaired.",
+    "bleurt_score": -1.3195371627807617
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speechless",
+    "output": "She fell silent.",
+    "bleurt_score": -1.1595221757888794
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "She is a big fish",
+    "bleurt_score": -1.6045788526535034
+  },
+  {
+    "input": "वह बहुत हवा में उड़ रहा है",
+    "reference": "He is flying in the air a lot",
+    "output": "He is boasting/bragging a lot.",
+    "bleurt_score": -1.2176918983459473
+  },
+  {
+    "input": "उसके पेट में चूहे कूद रहे हैं",
+    "reference": "He is really hungry",
+    "output": "There are mice jumping in his/her stomach.",
+    "bleurt_score": -1.5589993000030518
+  }
+]

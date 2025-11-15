@@ -1,0 +1,20 @@
+#format this - notes rn
+
+Need to download COMET: 
+    pip install unbabel-comet
+    comet download
+
+Files:
+(model)-base/MAD-output.txt = all the model translation final outputs only
+(model)-base/MAD-output.json = input format for COMET (and BLEURT). input, reference, output
+(model)-base/MAD-COMET/(BLEURT).json = output from COMET/(BLEURT)
+
+Scripts:
+debate4tran.py = code for translation task MAD framework
+config4tran.py = config file used for MAD input
+extract_base_tran.py = extract all the base transations from model outputs
+extract_debate_tran.py = extract all the post-debate transations from model outputs - uses REGEX, not accurate, needs pruning 
+evalaute_COMET.py = evaluate model output using COMET
+
+
+Reference: https://docs.google.com/spreadsheets/d/1maStUdtC9Cxj5X0oDC-FZ_BA_DBK_lYValqPongcL_c/edit?usp=sharing

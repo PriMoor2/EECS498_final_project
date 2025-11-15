@@ -14,7 +14,7 @@
 वह चला गया	He left
 वह ऊपर गया	He died
 वह भगवान के पास चला गया	He died
-मुझे ठंड लग रही है	The cold is stuck to stuck to me 
+मुझे ठंड लग रही है	The cold is stuck to me 
 वह भारी है	He is important
 उसका दिल बड़ा है	He is generous
 वह साफ है	He is clear
@@ -37,9 +37,9 @@
 वह खाली है	He is free
 उसका दिमाग ख़ाली है	He is stupid
 वह भारी काम है	It is difficult work
-वह गिरा हुआ आदमी है  He is corrupt
-वह तेज दिमाग वाला है  He is clever
-वह हल्की आवाज़ में बोला He spoke softly
+वह गिरा हुआ आदमी है	He is corrupt
+वह तेज दिमाग वाला है	He is clever
+वह हल्की आवाज़ में बोला	He spoke softly
 वह ऊँचा बोलता है	He speakes loudly
 वह अपने ही पैरों पर खड़ा है	He is indepenent
 दिल जलना	Jealousy or Envy

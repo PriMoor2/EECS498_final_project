@@ -1,0 +1,252 @@
+[
+    {
+        "input": "बाल बहुत लंबे हैं",
+        "reference": "The hair is very long",
+        "output": "The hairs are very long."
+    },
+    {
+        "input": "कल नहीं आएगा",
+        "reference": "He will not come tomorrow",
+        "output": "He/She/It will not come today."
+    },
+    {
+        "input": "उसका हाथ साफ़ है",
+        "reference": "He's innocent",
+        "output": "His/Her hand is clean"
+    },
+    {
+        "input": "वह ऊपर गिर गया",
+        "reference": "He fell from above",
+        "output": "He fell from above."
+    },
+    {
+        "input": "दिल बैठ गया",
+        "reference": "He lost courage",
+        "output": "My heart settled down"
+    },
+    {
+        "input": "दाल में कुछ काला है",
+        "reference": "Something’s fishy",
+        "output": "There is something dark/murky in the lentils."
+    },
+    {
+        "input": "उसने आकाश छू लिया",
+        "reference": "He achieved great success",
+        "output": "He/She reached the sky."
+    },
+    {
+        "input": "कल मैं बहुत पीछे था",
+        "reference": "Yesterday I was far behind",
+        "output": "Yesterday, I was very far behind."
+    },
+    {
+        "input": "उसकी आँखें खुल गईं",
+        "reference": "He realized the truth",
+        "output": "Her eyes were opened"
+    },
+    {
+        "input": "हमारे हाथ पाँव फूल गए",
+        "reference": "Unable to move freely",
+        "output": "Our hands and feet are swollen."
+    },
+    {
+        "input": "आँखों का तारा है",
+        "reference": "Very beloved person",
+        "output": "the pupil of the eye"
+    },
+    {
+        "input": "वह बूंद-बूंंद गिन रहा है",
+        "reference": "He is calculating every little bit",
+        "output": "He is counting the raindrops."
+    },
+    {
+        "input": "वह हाथ पर हाथ धरकर बैठा है",
+        "reference": "He is sitting idle",
+        "output": "He is sitting with his hands folded."
+    },
+    {
+        "input": "वह चला गया",
+        "reference": "He left",
+        "output": "He has gone"
+    },
+    {
+        "input": "वह ऊपर गया",
+        "reference": "He died",
+        "output": "He went upstairs"
+    },
+    {
+        "input": "वह भगवान के पास चला गया",
+        "reference": "He died",
+        "output": "He passed away"
+    },
+    {
+        "input": "मुझे ठंड लग रही है",
+        "reference": "The cold is stuck to me",
+        "output": "I am cold"
+    },
+    {
+        "input": "वह भारी है",
+        "reference": "He is important",
+        "output": "He is heavy"
+    },
+    {
+        "input": "उसका दिल बड़ा है",
+        "reference": "He is generous",
+        "output": "He has a big heart"
+    },
+    {
+        "input": "वह साफ है",
+        "reference": "He is clear",
+        "output": "He is clean"
+    },
+    {
+        "input": "वह हल्का है",
+        "reference": "He is mild or not serious",
+        "output": "He is light."
+    },
+    {
+        "input": "वह सीधा है",
+        "reference": "He is simple or honest.",
+        "output": "He is upright"
+    },
+    {
+        "input": "वह भारी आवाज़ में बोला",
+        "reference": "He spoke in a deep or serious tone.",
+        "output": "He spoke in a loud voice."
+    },
+    {
+        "input": "वह बड़ा है",
+        "reference": "He is older",
+        "output": "He is big."
+    },
+    {
+        "input": "उसका चेहरा उतर गया",
+        "reference": "He was disappointed",
+        "output": "His face fell."
+    },
+    {
+        "input": "वह चला रहा है",
+        "reference": "He is driving",
+        "output": "He is leaving"
+    },
+    {
+        "input": "वह काम नहीं करता",
+        "reference": "He is unemployed",
+        "output": "He is not doing the work"
+    },
+    {
+        "input": "उसका मूड खराब है",
+        "reference": "He is upset",
+        "output": "His/Her mood is bad."
+    },
+    {
+        "input": "वह जल गया",
+        "reference": "He is jealous",
+        "output": "He/She/It got burned"
+    },
+    {
+        "input": "वह खुला है",
+        "reference": "It is available",
+        "output": "It is open."
+    },
+    {
+        "input": "वह मेरे हाथों में टूट गया",
+        "reference": "He broke down in my hands",
+        "output": "It broke in my hands."
+    },
+    {
+        "input": "उसका चेहरा चमक रहा है",
+        "reference": "He is happy",
+        "output": "His/Her face is shining."
+    },
+    {
+        "input": "वह हिल गया",
+        "reference": "He was emotionally taken",
+        "output": "He was shaken"
+    },
+    {
+        "input": "यह बात बड़ी है",
+        "reference": "This matter is serious",
+        "output": "This is a big deal"
+    },
+    {
+        "input": "उसकी तबीयत खराब है",
+        "reference": "He is sick",
+        "output": "He/She is unwell"
+    },
+    {
+        "input": "वह चल रहा है",
+        "reference": "It is ongoing / in progress",
+        "output": "He is walking"
+    },
+    {
+        "input": "वह खाली है",
+        "reference": "He is free",
+        "output": "It is empty"
+    },
+    {
+        "input": "उसका दिमाग ख़ाली है",
+        "reference": "He is stupid",
+        "output": "His mind is blank"
+    },
+    {
+        "input": "वह भारी काम है",
+        "reference": "It is difficult work",
+        "output": "That is a heavy task"
+    },
+    {
+        "input": "वह गिरा हुआ आदमी है",
+        "reference": "He is corrupt",
+        "output": "He is a down-on-his-luck man"
+    },
+    {
+        "input": "वह तेज दिमाग वाला है",
+        "reference": "He is clever",
+        "output": "He has a sharp mind"
+    },
+    {
+        "input": "वह हल्की आवाज़ में बोला",
+        "reference": "He spoke softly",
+        "output": "He spoke in a soft voice."
+    },
+    {
+        "input": "वह ऊँचा बोलता है",
+        "reference": "He speakes loudly",
+        "output": "He speaks in a high-pitched manner"
+    },
+    {
+        "input": "वह अपने ही पैरों पर खड़ा है",
+        "reference": "He is indepenent",
+        "output": "He is standing on his own two feet."
+    },
+    {
+        "input": "दिल जलना",
+        "reference": "Jealousy or Envy",
+        "output": "heartache or heartbreak"
+    },
+    {
+        "input": "उसका दिमाग खराब है",
+        "reference": "He is crazy",
+        "output": "His mind is damaged/impaired."
+    },
+    {
+        "input": "उसकी बोलती बंद हो गई",
+        "reference": "He is speechless",
+        "output": "She fell silent."
+    },
+    {
+        "input": "वह बड़ी मछली है",
+        "reference": "He is powerful",
+        "output": "She is a big fish"
+    },
+    {
+        "input": "वह बहुत हवा में उड़ रहा है",
+        "reference": "He is flying in the air a lot",
+        "output": "He is boasting/bragging a lot."
+    },
+    {
+        "input": "उसके पेट में चूहे कूद रहे हैं",
+        "reference": "He is really hungry",
+        "output": "There are mice jumping in his/her stomach."
+    }
+]

@@ -20,6 +20,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 import os
 import json
 import random
+import re
 # random.seed(0)
 import argparse
 from langcodes import Language
@@ -33,6 +34,28 @@ NAME_LIST=[
     "Negative side",
     "Moderator",
 ]
+
+def extract_json_from_response(response_text):
+    """
+    Extract JSON object from Claude's response text.
+    Handles cases where there's additional text before/after the JSON.
+    """
+    # Try to find JSON block with curly braces
+    json_match = re.search(r'\{.*\}', response_text, re.DOTALL)
+    
+    if json_match:
+        json_str = json_match.group(0)
+        try:
+            return json.loads(json_str)
+        except json.JSONDecodeError as e:
+            print(f"Error parsing JSON: {e}")
+            print(f"JSON string: {json_str[:200]}...")
+            raise
+    else:
+        # If no JSON found, print the response for debugging
+        print(f"No JSON found in response:")
+        print(f"{response_text[:500]}...")
+        raise ValueError("No JSON object found in response")
 
 class DebatePlayer(Agent):
     def __init__(self, model_name: str, name: str, temperature:float, anthropic_api_key: str, sleep_time: float) -> None:
@@ -112,6 +135,8 @@ class Debate:
         self.creat_agents()
         self.init_agents()
 
+    
+
 
     def init_prompt(self):
         def prompt_replace(key):
@@ -159,7 +184,7 @@ class Debate:
         self.moderator.add_event(self.save_file['moderator_prompt'].replace('##aff_ans##', self.aff_ans).replace('##neg_ans##', self.neg_ans).replace('##round##', 'first'))
         self.mod_ans = self.moderator.ask()
         self.moderator.add_memory(self.mod_ans)
-        self.mod_ans = json.loads(self.mod_ans)
+        self.mod_ans = extract_json_from_response(self.mod_ans)
 
     def round_dct(self, num: int):
         dct = {
@@ -227,7 +252,7 @@ class Debate:
                 self.moderator.add_event(self.save_file['moderator_prompt'].replace('##aff_ans##', self.aff_ans).replace('##neg_ans##', self.neg_ans).replace('##round##', self.round_dct(round+2)))
                 self.mod_ans = self.moderator.ask()
                 self.moderator.add_memory(self.mod_ans)
-                self.mod_ans = json.loads(self.mod_ans)
+                self.mod_ans = extract_json_from_response(self.mod_ans)
 
         if self.mod_ans["debate_translation"] != '':
             self.save_file.update(self.mod_ans)
@@ -251,7 +276,7 @@ class Debate:
             ans = judge_player.ask()
             judge_player.add_memory(ans)
             
-            ans = json.loads(ans)
+            ans = extract_json_from_response(ans)
             if ans["debate_translation"] != '':
                 self.save_file['success'] = True
                 # save file
@@ -307,9 +332,9 @@ if __name__ == "__main__":
     
     # Extract configuration values
     input_file = config.get('input_file', 'hindi-english-input.txt')
-    output_dir = config.get('output_dir', './hindi-english-output-claude-sonnet-4-5-20250929')
+    output_dir = config.get('output_dir', './hindi-english-output-claude-3-haiku-20240307')
     lang_pair = config.get('lang_pair', 'hi-en')
-    model_name = config.get('model_name', 'claude-sonnet-4-5-20250929')
+    model_name = config.get('model_name', 'claude-3-haiku-20240307')
     temperature = config.get('temperature', 0)  #temp set to 0 or all rounds
     max_round = config.get('max_round', 3)
     sleep_time = config.get('sleep_time', 0)

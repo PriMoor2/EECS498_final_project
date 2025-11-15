@@ -8,7 +8,7 @@ import json
 import sys
 
 # ===== CONFIGURATION =====
-INPUT_DIR = "./hindi-english-output.txt"  # Directory with JSON files
+INPUT_DIR = "./hindi-english-output-claude-sonnet-4-5-20250929"  # Directory with JSON files
 # =========================
 
 def extract_translations(output_file):
