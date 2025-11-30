@@ -42,8 +42,8 @@ def evaluate_comet(input_path, output_path, model_name="wmt22-comet-da"):
 # MAIN — edit these values
 # --------------------------
 if __name__ == "__main__":
-    INPUT_FILE = "claude-sonnet-4-5-20250929-MAD-output.json"     
-    OUTPUT_FILE = "claude-sonnet-4-5-20250929-MAD-COMET.json"  
+    INPUT_FILE = "input-tree-sonnet.json"     
+    OUTPUT_FILE = "input-tree-sonnet-COMET.json"  
     MODEL_NAME = "Unbabel/wmt22-comet-da"  #needs, input, output plus reference  
 
     evaluate_comet(INPUT_FILE, OUTPUT_FILE, MODEL_NAME)

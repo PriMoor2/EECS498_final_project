@@ -1,0 +1,302 @@
+[
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "Her hair is extremely lengthy.",
+    "comet_score": 0.9224270582199097
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "Will not be coming tomorrow",
+    "comet_score": 0.8909364938735962
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "Her hands are clean",
+    "comet_score": 0.6772915124893188
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He fell down.",
+    "comet_score": 0.7952730655670166
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "My heart sank",
+    "comet_score": 0.6900247931480408
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "Something suspicious is going on here.",
+    "comet_score": 0.8109699487686157
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He touched the sky",
+    "comet_score": 0.6192086338996887
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "I was running quite late yesterday.",
+    "comet_score": 0.626941978931427
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "His eyes opened wide",
+    "comet_score": 0.6190572381019592
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our hands and feet are swollen",
+    "comet_score": 0.4921596348285675
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "The star of the eyes",
+    "comet_score": 0.4409812390804291
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "He is meticulously counting each and every drop.",
+    "comet_score": 0.7335377931594849
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "He is sitting with his hands folded.",
+    "comet_score": 0.6809518337249756
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He went away.",
+    "comet_score": 0.8780706524848938
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He went upstairs.",
+    "comet_score": 0.5389566421508789
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He went to God",
+    "comet_score": 0.6254231929779053
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "I'm getting cold.",
+    "comet_score": 0.7555046677589417
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "That is weighty",
+    "comet_score": 0.7960755825042725
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "His heart is big",
+    "comet_score": 0.6935247778892517
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "He is clean.",
+    "comet_score": 0.8591227531433105
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "He is lightweight.",
+    "comet_score": 0.5795077681541443
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "He is straightforward",
+    "comet_score": 0.9054166674613953
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He spoke in a loud voice",
+    "comet_score": 0.794607937335968
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "He is big.",
+    "comet_score": 0.7241634130477905
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "His face fell",
+    "comet_score": 0.6403443813323975
+  },
+  {
+    "input": "वह चला रहा है",
+    "reference": "He is driving",
+    "output": "He is going.",
+    "comet_score": 0.7475678324699402
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He does not do the work",
+    "comet_score": 0.6295193433761597
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "He is in a bad mood.",
+    "comet_score": 0.7747191786766052
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "He was burned.",
+    "comet_score": 0.5235213041305542
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "It is open",
+    "comet_score": 0.907889187335968
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "It broke in my hands",
+    "comet_score": 0.7845501899719238
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "Her face is radiating brightness.",
+    "comet_score": 0.637510359287262
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "He shook",
+    "comet_score": 0.6573842167854309
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This is a serious issue",
+    "comet_score": 0.9404281377792358
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "His health is poor.",
+    "comet_score": 0.885754406452179
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is going.",
+    "comet_score": 0.6118457913398743
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "It is empty",
+    "comet_score": 0.6972671747207642
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "He's got nothing going on upstairs.",
+    "comet_score": 0.423702597618103
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That's a tough job.",
+    "comet_score": 0.9188757538795471
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "He is a fallen man",
+    "comet_score": 0.811947226524353
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He has a quick intellect.",
+    "comet_score": 0.7283878922462463
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He spoke in a soft voice",
+    "comet_score": 0.9198480248451233
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He speaks loudly.",
+    "comet_score": 0.9616039991378784
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He is standing on his own feet",
+    "comet_score": 0.5992466807365417
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "Heartburn",
+    "comet_score": 0.3245360553264618
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "He's out of his mind.",
+    "comet_score": 0.785463273525238
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "She was left speechless",
+    "comet_score": 0.7404798865318298
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That is a big fish",
+    "comet_score": 0.7029898762702942
+  },
+  {
+    "input": "वह बहुत हवा में उड़ रहा है",
+    "reference": "He is flying in the air a lot",
+    "output": "He is flying very high in the air.",
+    "comet_score": 0.865505576133728
+  },
+  {
+    "input": "उसके पेट में चूहे कूद रहे हैं",
+    "reference": "He is really hungry",
+    "output": "He has butterflies in his stomach.",
+    "comet_score": 0.47559383511543274
+  }
+]

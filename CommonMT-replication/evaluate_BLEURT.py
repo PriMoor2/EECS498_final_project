@@ -40,7 +40,7 @@ def evaluate_bleurt(input_path, output_path, model_name="bleurt-base-128"):
 # MAIN — edit these values
 # --------------------------
 if __name__ == "__main__":
-    INPUT_FILE = "claude-sonnet-4-5-20250929-MAD-output.json"
-    OUTPUT_FILE = "claude-sonnet-4-5-20250929-MAD-BLEURT.json"
+    INPUT_FILE = "input-tree-sonnet.json"
+    OUTPUT_FILE = "input-tree-sonnet-BLEURT.json"
 
     evaluate_bleurt(INPUT_FILE, OUTPUT_FILE)
