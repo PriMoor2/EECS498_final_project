@@ -25,7 +25,7 @@ import re
 from code.utils.agent import Agent
 
 
-anthropic_api_key = "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"
+anthropic_api_key = "<Enter API KEY>"
 
 NAME_LIST=[
     "Affirmative side",

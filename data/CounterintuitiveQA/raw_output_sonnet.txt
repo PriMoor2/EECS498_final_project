@@ -1,0 +1,50 @@
+1.5 m/s
+The probability that Alice shows up in the third bar is 3/4 or 0.75 or 75%
+14
+48%
+The percentage of salt in the solution is 9.09% (or approximately 9.1% when rounded to one decimal place). This is calculated as: (10 g salt / 110 g total solution) × 100 = 9.09%
+500 kg (or 0.5 tons)
+13
+47
+5 minutes
+41.4% (or approximately 41%)
+18.13%
+23
+The percentage that a person identified as a criminal by the technology is indeed a criminal is approximately 0.19% (or more precisely, 95/50,090 ≈ 0.001896). This is calculated using Bayes' Theorem: with 95 true positives (criminals correctly identified) and 49,995 false positives (innocent people incorrectly flagged), out of 50,090 total people identified as criminals, only 95 are actual criminals. This counterintuitive result demonstrates the base rate fallacy, where even a highly accurate test (95% reliability) produces mostly false positives when the condition being tested is extremely rare in the population (0.01% base rate).
+512
+90 chairs are flipped back to their initial position. The reasoning is that a chair numbered n is flipped once for each of its divisors. Perfect squares (1, 4, 9, 16, 25, 36, 49, 64, 81, 100) have an odd number of divisors and thus are flipped an odd number of times, ending in a different position from their initial state. All other 90 chairs have an even number of divisors, are flipped an even number of times, and return to their initial position.
+55
+68.57% (or exactly 48/7 × 100%) of the total adult population is married
+36 days
+2 birds
+200 words
+The probability that Bob will win the game is 55/64 (approximately 0.859 or 85.9%)
+50 kilograms
+2/3
+Second position. When you overtake the second person in a race, you move into second place. The first-place person is still ahead of you, and the person you overtook drops to third place. This is a classic logic puzzle designed to test whether people mistakenly assume that overtaking second place makes them first.
+ONE time - you can only subtract 10 from 100 once, because after that subtraction, you no longer have 100 to subtract from.
+11
+4
+15 hours
+3
+1/2
+The probability that the driver is actually drunk given a positive breathalyzer test is approximately 1.96% or about 2%. This is calculated using Bayes' Theorem: P(drunk|positive) = P(positive|drunk) × P(drunk) / P(positive) = (1.0 × 0.001) / (0.001 + 0.05 × 0.999) = 0.001 / 0.05095 ≈ 0.0196 or 1.96%. Out of approximately 51 positive tests (1 true positive and 50 false positives per 1000 drivers), only 1 represents an actually drunk driver.
+1/2
+13/27 (approximately 0.481 or 48.1%)
+The optimal strategy for the Secretary Problem with 100 candidates is: (1) Reject the first 37 candidates automatically while observing their quality, (2) Starting from candidate 38, select the first candidate who ranks better than ALL previously interviewed candidates, (3) If no such candidate appears by the end, accept the last candidate. This strategy yields a success probability of approximately 37.1% (or 1/e ≈ 0.3679), which is the maximum achievable probability for selecting the best candidate.
+6 minutes
+4
+The age of the oldest girl is 8. The three daughters are aged 3, 3, and 8 years old.
+66.67 km (or exactly 200/3 km)
+Bowl 1: 1 white ball; Bowl 2: 49 white balls and 50 black balls. This distribution maximizes the probability of selecting a white ball at approximately 74.75%.
+10 rats
+The expected ratio of boys to girls in the country is 1:1. Each family will have exactly one boy (by the stopping rule), and the expected number of girls per family is also 1, calculated as Σ(n=0 to ∞) n × (1/2)^(n+1) = 1. Therefore, across the entire population, the ratio remains 1:1 despite the biased stopping rule.
+25000
+22
+The shopkeeper C lost Rs 500 in total. This consists of the 100 Rs item and 400 Rs cash given to Lady L in exchange for a fake note that has no value. The transaction with shopkeeper S (giving fake note, receiving 500 Rs, then returning 500 Rs) nets to zero and does not contribute to C's loss.
+18 days
+17 minutes
+47 days
+The probability of seeing a vehicle in 10 minutes is approximately 63.2% (or more precisely, 1 - ∛0.05 ≈ 0.632). This is derived by recognizing that P(no vehicle in 30 min) = 0.05, and since 30 minutes equals three 10-minute periods, P(no vehicle in 10 min) = ∛0.05 ≈ 0.368, making P(seeing a vehicle in 10 min) = 1 - 0.368 ≈ 0.632 or 63.2%.
+45 minutes
+5 airplanes

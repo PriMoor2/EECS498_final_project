@@ -1,0 +1,3 @@
+When Alice walks up the hill, her speed is 1 m/s and when she goes down the hill, her speed is 3 m/s. Then when Alice walks up and down the hill, what is her average speed?
+9 days among 10 days, Alice goes out for drink. She only goes to three bars for drink with equal frequency. Bob is trying to find Alice today. However, he fails after going to two bars. What is the probability that Alice shows up in the third bar?
+One peach costs one cent. You can use 3 peach pits to exchange for one peach. If you have 10 cents, then what is the maximal number of peaches you can eat?

@@ -54,8 +54,10 @@ class Agent:
         time.sleep(self.sleep_time)
         assert self.model_name in support_models, f"Not support {self.model_name}. Choices: {support_models}"
         try:
+            # print("entered try")
             claude_messages = []
             system_message = self.system_prompt
+            print("self.model_name", self.model_name)
             
             for msg in messages:
                 if msg["role"] == "system":
@@ -66,20 +68,47 @@ class Agent:
                 else:
                     claude_messages.append({"role":msg["role"], "content":msg["content"]})
 
+            # print("finished for")
                     
             if self.model_name in support_models:
-                response = self.client.messages.create(
-                    model=self.model_name,
-                    messages=claude_messages,
-                    temperature=temperature,
-                    max_tokens=max_tokens,
-                    system=system_message if system_message else None
-                )
 
-                gen = response.content[0].text
-                return gen
+                # print("self.model_name", self.model_name)
+                # print(claude_messages)
+                # print(temperature)
+                # print(max_tokens)
+                # print(system_message)
 
-        except RateLimitError as e:
+                try:
+                     #print("about to call API")
+                    response = self.client.messages.create(
+                        model=self.model_name,
+                        messages=claude_messages,
+                        temperature=temperature,
+                        max_tokens=max_tokens,
+                        system=system_message if system_message else anthropic.NOT_GIVEN,
+                        timeout=60.0
+                    )
+                    # print(response)
+
+                    # print("response created")
+
+                    gen = response.content[0].text
+                    # print("before return from query")
+                    return gen
+                except anthropic.APIError as e:
+                    print(f"API ERROR: {e}")
+                    print(f"Error type: {type(e)}")
+                    print(f"Error status code:{getattr(e, 'status_code', 'N/A')}")
+                    raise
+                except Exception as e:
+                    print(f"Unexpected error: {e}")
+                    print(f"Error type: {type(e)}")
+                    import traceback
+                    traceback.print_exc()
+                    raise
+
+        except anthropic.RateLimitError as e:
+            print("entered exception")
             if "You exceeded your current quota, please check your plan and billing details" in e.user_message:
                 raise e
             elif "Your access was terminated due to violation of our policies" in e.user_message:
@@ -120,15 +149,17 @@ class Agent:
         """
         # query
         num_context_token = sum([num_tokens_from_string(m["content"], self.model_name) for m in self.memory_lst])
+        # print("got num tokens")
         max_output_token = min(4096, model2max_context[self.model_name] - num_context_token - 1000)
+        # print("got max tokens")
         if max_output_token < 100:
             raise ValueError("Context window is nearly full. Truncate conversation history")
-        
+        # print("before return")
         return self.query(self.memory_lst, max_output_token, api_key=self.anthropic_api_key, temperature=temperature if temperature is not None else self.temperature)
 
 #Example
 if __name__ == "__main__":
-    agent = Agent(model_name="claude-3-haiku-20240307",name="Assistant",temperature=0.7, api_key="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")
+    agent = Agent(model_name="claude-3-haiku-20240307",name="Assistant",temperature=0.7, api_key="<Enter API Key>")
     agent.set_meta_prompt("You are a helpful AI assistant.")
     agent.add_event("what is the capital of India?")
     response = agent.ask()

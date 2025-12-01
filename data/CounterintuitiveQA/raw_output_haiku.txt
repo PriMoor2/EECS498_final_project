@@ -1,0 +1,50 @@
+1.5 m/s
+30%
+12 peaches
+44.44%
+9.09%
+2,000 lbs
+99
+79
+5 minutes
+The probability that the taxi seen by the witness is blue is 0.52 or 52%.
+The percentage that at least one match will be produced is around 86.47%.
+The number of people needed in a room for the probability of at least two people having the same birthday to exceed 50% is 23.
+19%
+512 fish
+100 chairs
+2,401 mice
+70%
+37 days
+There will be 2 more birds on the right side than the left side after one bird moves from the left side to the right side.
+275
+5/12
+99 kilograms
+The probability that player B wins the game is 1/8.
+If you overtake the person in 2nd place in a race, your new position would be 2nd place.
+10
+1/11
+There is only 1 possible division that satisfies the given conditions: a = 6, b = 24, c = 8, d = 12.
+15 hours
+3
+The probability that the 100th person will be able to sit in their assigned seat is 1/100 or 1%.
+2.00%
+1/2
+The probability that Ankur's brother has two boys is 1/2 or 50%.
+The optimal strategy is to use the Secretary Problem or Optimal Stopping Theory approach. The key steps are: 1) Observe the first n/e candidates (where e is the base of the natural logarithm, approximately 2.718) without making any selections. This is the 'exploration' phase. 2) After the exploration phase, start accepting candidates that are better than all the candidates you've seen so far. This is the 'exploitation' phase. The probability of success using this strategy is approximately 1/e, or around 37%, which is the best possible probability for this problem.
+12 minutes
+3
+The age of the oldest daughter is 12 years old.
+66.67 km
+The optimal strategy to maximize the chance of picking a white ball is to evenly distribute the 50 white and 50 black balls into the two bowls, putting 25 of each color in each bowl.
+The minimum number of rats needed to figure out which bottle contains the poison in 1 hour is 4.
+The expected ratio of boys to girls in the country where all families keep having babies until a boy is born is 1:2.
+80,000 miles
+20
+The shopkeeper (C) lost Rs 100 in the end.
+It took the man 18 days to complete 25% of the task.
+The shortest time needed for all four people to cross the bridge is 22 minutes, using the negative side's proposed solution.
+50 days
+The probability of seeing a vehicle in 10 minutes on the deserted road is approximately 31.7%.
+Ram was walking for 30 minutes.
+The minimum number of planes required to get one plane all the way around the world, assuming all planes must return safely to the airport, is 2.
