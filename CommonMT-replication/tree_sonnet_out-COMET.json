@@ -1,0 +1,1130 @@
+[
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The hair is very long",
+    "comet_score": 0.9837820529937744
+  },
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "Her hair has grown extremely long",
+    "comet_score": 0.8796488046646118
+  },
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The locks have become exceedingly lengthy",
+    "comet_score": 0.5593199133872986
+  },
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "Those tresses extend remarkably far",
+    "comet_score": 0.5049352645874023
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "Won't come tomorrow",
+    "comet_score": 0.9070114493370056
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "Will not be coming tomorrow",
+    "comet_score": 0.8909364938735962
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "Tomorrow, he will not arrive",
+    "comet_score": 0.9454324245452881
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "He's not going to show up tomorrow",
+    "comet_score": 0.8842294216156006
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "His hand is clean",
+    "comet_score": 0.6785246729850769
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "Her hand is pure",
+    "comet_score": 0.681552529335022
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "That person's hand is spotless",
+    "comet_score": 0.61700439453125
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "Their hands are free from dirt",
+    "comet_score": 0.58270663022995
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He fell down from above",
+    "comet_score": 0.9651913642883301
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He tumbled from up there",
+    "comet_score": 0.8610790967941284
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He dropped down from the top",
+    "comet_score": 0.8561697602272034
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He collapsed downward from overhead",
+    "comet_score": 0.7792301177978516
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "My heart sank",
+    "comet_score": 0.6900247931480408
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "My heart felt heavy",
+    "comet_score": 0.6142396330833435
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "The heart became disheartened",
+    "comet_score": 0.6419464349746704
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "I lost heart",
+    "comet_score": 0.7963213920593262
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "Something fishy is going on",
+    "comet_score": 0.9181481003761292
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "There's something suspicious happening",
+    "comet_score": 0.8283823132514954
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "There's something not quite right here",
+    "comet_score": 0.8301609754562378
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "Something's off about this situation",
+    "comet_score": 0.8916047811508179
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He touched the sky",
+    "comet_score": 0.6192086338996887
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He reached unprecedented heights",
+    "comet_score": 0.7857464551925659
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He soared to extraordinary success",
+    "comet_score": 0.8801265358924866
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He achieved remarkable heights of glory",
+    "comet_score": 0.7663947939872742
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "Yesterday I was very far behind",
+    "comet_score": 0.9680261611938477
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "I was lagging quite a bit yesterday",
+    "comet_score": 0.7590815424919128
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "I was trailing by a lot yesterday",
+    "comet_score": 0.668269157409668
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "Yesterday, I had fallen way back",
+    "comet_score": 0.7238022685050964
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "Her eyes opened",
+    "comet_score": 0.6754732728004456
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "His eyes flew open",
+    "comet_score": 0.6225864887237549
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "Their eyes came open",
+    "comet_score": 0.7127984762191772
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "She opened her eyes",
+    "comet_score": 0.6971955895423889
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our hands and feet have become swollen",
+    "comet_score": 0.49837711453437805
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our limbs have swelled up",
+    "comet_score": 0.562896728515625
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our hands and feet are bloated",
+    "comet_score": 0.51911461353302
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "My hands and feet have puffed up",
+    "comet_score": 0.46448442339897156
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "The apple of one's eye",
+    "comet_score": 0.41183745861053467
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "Is the pupil of the eyes",
+    "comet_score": 0.4313788414001465
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "She is the star of the eyes",
+    "comet_score": 0.465190052986145
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "You are the light of my eyes",
+    "comet_score": 0.5551941990852356
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "He is counting drop by drop",
+    "comet_score": 0.6985647678375244
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "He is counting each and every drop",
+    "comet_score": 0.78537517786026
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "He is meticulously tallying every single droplet",
+    "comet_score": 0.7383788228034973
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "He's carefully measuring out drop after drop",
+    "comet_score": 0.679419994354248
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "He is sitting with his hands placed one upon the other",
+    "comet_score": 0.5857759118080139
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "He sits there with one hand resting on the other",
+    "comet_score": 0.6509215235710144
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "He is seated with hands folded over each other",
+    "comet_score": 0.5543634295463562
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He went away",
+    "comet_score": 0.8905839920043945
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He left",
+    "comet_score": 0.9886865019798279
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He departed",
+    "comet_score": 0.885751485824585
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He took off",
+    "comet_score": 0.7955166697502136
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He went upstairs",
+    "comet_score": 0.5248228311538696
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He went up",
+    "comet_score": 0.5751397609710693
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He ascended",
+    "comet_score": 0.6202697157859802
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He moved upward",
+    "comet_score": 0.5088906288146973
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He went to God",
+    "comet_score": 0.6254231929779053
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He proceeded towards the Lord",
+    "comet_score": 0.5768582820892334
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He walked over to the Divine One",
+    "comet_score": 0.5004251003265381
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He made his way to the presence of the Almighty",
+    "comet_score": 0.5007007122039795
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "I am feeling cold",
+    "comet_score": 0.7692590355873108
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "I'm getting cold",
+    "comet_score": 0.7646344900131226
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "The cold is affecting me",
+    "comet_score": 0.8395752310752869
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "It is heavy",
+    "comet_score": 0.7456422448158264
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "That one is weighty",
+    "comet_score": 0.7187269926071167
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "That is quite heavy",
+    "comet_score": 0.6412153244018555
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "That's a heavy one",
+    "comet_score": 0.6147292852401733
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "He has a big heart",
+    "comet_score": 0.7184991240501404
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "She is very generous",
+    "comet_score": 0.9366096258163452
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "That person is kind-hearted",
+    "comet_score": 0.807173490524292
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "Their heart is full of compassion",
+    "comet_score": 0.7075151205062866
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "He is clean",
+    "comet_score": 0.846991240978241
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "That is clean",
+    "comet_score": 0.7923128604888916
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "It is clean",
+    "comet_score": 0.7749637365341187
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "She is clean",
+    "comet_score": 0.7479376196861267
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "He is light",
+    "comet_score": 0.6746748685836792
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "He is lightweight",
+    "comet_score": 0.5618958473205566
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "That one is not heavy",
+    "comet_score": 0.5870797634124756
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "It weighs very little",
+    "comet_score": 0.5331127047538757
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "He is straightforward",
+    "comet_score": 0.9054166674613953
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "He is honest",
+    "comet_score": 0.9290527701377869
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "He is simple",
+    "comet_score": 0.9172342419624329
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "He is uncomplicated",
+    "comet_score": 0.824774980545044
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He spoke in a heavy voice",
+    "comet_score": 0.8633375763893127
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He uttered words in a deep tone",
+    "comet_score": 0.8295183777809143
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He spoke with a grave voice",
+    "comet_score": 0.8349927067756653
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He said it in a weighty manner",
+    "comet_score": 0.8023393750190735
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "He is big",
+    "comet_score": 0.7196104526519775
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "He is large",
+    "comet_score": 0.7260268926620483
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "That one is great",
+    "comet_score": 0.5822592377662659
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "He is elder",
+    "comet_score": 0.900515079498291
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "His face fell",
+    "comet_score": 0.6403443813323975
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "Her expression dropped",
+    "comet_score": 0.5591482520103455
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "Their countenance became downcast",
+    "comet_score": 0.572237491607666
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "His spirits sank",
+    "comet_score": 0.6609414219856262
+  },
+  {
+    "input": "वह चला रहा है",
+    "reference": "He is driving",
+    "output": "He is walking away",
+    "comet_score": 0.7241140007972717
+  },
+  {
+    "input": "वह चला रहा है",
+    "reference": "He is driving",
+    "output": "He is going",
+    "comet_score": 0.7399132251739502
+  },
+  {
+    "input": "वह चला रहा है",
+    "reference": "He is driving",
+    "output": "He keeps moving forward",
+    "comet_score": 0.700412392616272
+  },
+  {
+    "input": "वह चला रहा है",
+    "reference": "He is driving",
+    "output": "He continues on his way",
+    "comet_score": 0.6414662599563599
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He doesn't do the work",
+    "comet_score": 0.635917067527771
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He does not work",
+    "comet_score": 0.6862382292747498
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He refuses to perform that task",
+    "comet_score": 0.7029275894165039
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He isn't doing that job",
+    "comet_score": 0.7023509740829468
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "He is in a bad mood",
+    "comet_score": 0.7830277681350708
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "His mood is spoiled",
+    "comet_score": 0.6677602529525757
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "She's feeling upset",
+    "comet_score": 0.8918517827987671
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "He's not in good spirits",
+    "comet_score": 0.6655123829841614
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "He got burned",
+    "comet_score": 0.5083401799201965
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "He was burnt",
+    "comet_score": 0.5021705031394958
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "He burned up",
+    "comet_score": 0.5142626762390137
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "He caught fire",
+    "comet_score": 0.5398427844047546
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "It is open",
+    "comet_score": 0.907889187335968
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "That one is open",
+    "comet_score": 0.7058920860290527
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "That is open",
+    "comet_score": 0.8193252086639404
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "He is open",
+    "comet_score": 0.7986831665039062
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "It broke in my hands",
+    "comet_score": 0.7845501899719238
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "It shattered in my grasp",
+    "comet_score": 0.8057360053062439
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "It fell apart while I was holding it",
+    "comet_score": 0.7223618030548096
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "Her face is glowing",
+    "comet_score": 0.685727059841156
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "His face is radiating brightness",
+    "comet_score": 0.7462577223777771
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "Their face is shining brightly",
+    "comet_score": 0.7139688730239868
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "That person's face is beaming with light",
+    "comet_score": 0.6140249967575073
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "He moved",
+    "comet_score": 0.5527330636978149
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "He shifted",
+    "comet_score": 0.5141868591308594
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "It swayed",
+    "comet_score": 0.5928701162338257
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "He stirred",
+    "comet_score": 0.6501004099845886
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This is a significant matter",
+    "comet_score": 0.9163577556610107
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This thing is big",
+    "comet_score": 0.8268791437149048
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This matter is of great importance",
+    "comet_score": 0.9004935026168823
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This is a major issue",
+    "comet_score": 0.9027529954910278
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "Her health is poor",
+    "comet_score": 0.8113014101982117
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "His condition is not well",
+    "comet_score": 0.7792750000953674
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "She is feeling unwell",
+    "comet_score": 0.8016695976257324
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "He's not doing well",
+    "comet_score": 0.7022731900215149
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is walking",
+    "comet_score": 0.5449683666229248
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is going",
+    "comet_score": 0.5953963398933411
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He keeps moving",
+    "comet_score": 0.6653192043304443
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He continues on his way",
+    "comet_score": 0.5701847672462463
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "It is empty",
+    "comet_score": 0.6972671747207642
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "That is vacant",
+    "comet_score": 0.5828485488891602
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "She is unoccupied",
+    "comet_score": 0.5395238995552063
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "He is free",
+    "comet_score": 0.9895738363265991
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "His mind is vacant",
+    "comet_score": 0.6968002915382385
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "Her brain is empty",
+    "comet_score": 0.7319493889808655
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "Their head is completely empty",
+    "comet_score": 0.6861881017684937
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "That person's mind is blank",
+    "comet_score": 0.7128493785858154
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That is a difficult task",
+    "comet_score": 0.9429883360862732
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That's a heavy job",
+    "comet_score": 0.9026148319244385
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "It's a tough piece of work",
+    "comet_score": 0.9283354878425598
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That's quite a burden",
+    "comet_score": 0.7614668607711792
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "He is a fallen man",
+    "comet_score": 0.811947226524353
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "That man has fallen from grace",
+    "comet_score": 0.6109473705291748
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "That person is someone who has experienced a downfall",
+    "comet_score": 0.6287665367126465
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "He's a man who has come down in the world",
+    "comet_score": 0.4909467101097107
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He is sharp-minded",
+    "comet_score": 0.7755183577537537
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He has a brilliant mind",
+    "comet_score": 0.814344584941864
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He possesses a keen intellect",
+    "comet_score": 0.814642608165741
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He is quick-witted",
+    "comet_score": 0.7886845469474792
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He spoke in a soft voice",
+    "comet_score": 0.9198480248451233
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He spoke softly",
+    "comet_score": 0.9862288236618042
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "She spoke in a gentle tone",
+    "comet_score": 0.8551442623138428
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He uttered words in a hushed manner",
+    "comet_score": 0.7268860340118408
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He speaks loudly",
+    "comet_score": 0.9662482142448425
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He talks in a loud voice",
+    "comet_score": 0.9021744728088379
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He raises his voice when speaking",
+    "comet_score": 0.8348657488822937
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He has a loud manner of speaking",
+    "comet_score": 0.8552950024604797
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He stands on his own two feet",
+    "comet_score": 0.5595929026603699
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He is standing on his own feet",
+    "comet_score": 0.5992466807365417
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He is self-reliant and independent",
+    "comet_score": 0.7501158714294434
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He supports himself without depending on others",
+    "comet_score": 0.6887720823287964
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "Heart burning with jealousy",
+    "comet_score": 0.7150616645812988
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "Feeling envious",
+    "comet_score": 0.5819090604782104
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "The heart is ablaze",
+    "comet_score": 0.4635215401649475
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "Heartache and resentment",
+    "comet_score": 0.6314495205879211
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "His mind is damaged",
+    "comet_score": 0.7447912693023682
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "He has lost his senses",
+    "comet_score": 0.6781923174858093
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "He's not in his right mind",
+    "comet_score": 0.6728487610816956
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "She fell silent",
+    "comet_score": 0.7343871593475342
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "Her voice went quiet",
+    "comet_score": 0.7686892151832581
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "She stopped speaking",
+    "comet_score": 0.8039435744285583
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "She was rendered speechless",
+    "comet_score": 0.7381611466407776
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That is a large fish",
+    "comet_score": 0.7290863990783691
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "It is a big fish",
+    "comet_score": 0.733340322971344
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "She is a huge fish",
+    "comet_score": 0.7038158178329468
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That's one big fish",
+    "comet_score": 0.6136029958724976
+  }
+]

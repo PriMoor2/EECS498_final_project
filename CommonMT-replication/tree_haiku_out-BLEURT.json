@@ -1,0 +1,1124 @@
+[
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The hair is very long.",
+    "bleurt_score": 1.1068769693374634
+  },
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The lengthy tresses flow gracefully.",
+    "bleurt_score": -1.198177695274353
+  },
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The luxurious locks cascade down gracefully.",
+    "bleurt_score": -1.361961007118225
+  },
+  {
+    "input": "बाल बहुत लंबे हैं",
+    "reference": "The hair is very long",
+    "output": "The children's hair cascades down in a magnificent display.",
+    "bleurt_score": -1.3494737148284912
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "He will not come tomorrow.",
+    "bleurt_score": 1.0536450147628784
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "Tomorrow, he will be absent.",
+    "bleurt_score": 0.06278777122497559
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "He is not coming tomorrow.",
+    "bleurt_score": 0.8113911151885986
+  },
+  {
+    "input": "कल नहीं आएगा",
+    "reference": "He will not come tomorrow",
+    "output": "He won't be present tomorrow.",
+    "bleurt_score": 0.4992334842681885
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "His hand is clean.",
+    "bleurt_score": -1.2783198356628418
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "The man's palm is spotless.",
+    "bleurt_score": -1.4949891567230225
+  },
+  {
+    "input": "उसका हाथ साफ़ है",
+    "reference": "He's innocent",
+    "output": "The gentleman's palm is pristine.",
+    "bleurt_score": -1.502572774887085
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "He fell down above.",
+    "bleurt_score": 0.582859992980957
+  },
+  {
+    "input": "वह ऊपर गिर गया",
+    "reference": "He fell from above",
+    "output": "The man tumbled down from above.",
+    "bleurt_score": 0.6680929064750671
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "The heart has sunk",
+    "bleurt_score": -0.817585289478302
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "The heart has drifted away",
+    "bleurt_score": -1.118813157081604
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "The heart has departed",
+    "bleurt_score": -1.0848852396011353
+  },
+  {
+    "input": "दिल बैठ गया",
+    "reference": "He lost courage",
+    "output": "The heart has become heavy",
+    "bleurt_score": -1.2331775426864624
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "There is something black in the dal",
+    "bleurt_score": -1.3173656463623047
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "A dark substance has appeared in the lentil dish",
+    "bleurt_score": -1.0060701370239258
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "There is some black in the dal",
+    "bleurt_score": -1.4442089796066284
+  },
+  {
+    "input": "दाल में कुछ काला है",
+    "reference": "Something's fishy",
+    "output": "A peculiar dark speck has materialized within the lentil dish",
+    "bleurt_score": -1.1941535472869873
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "He reached up and touched the sky.",
+    "bleurt_score": -1.462674856185913
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "The man extended his hand and grasped the heavens.",
+    "bleurt_score": -1.3192737102508545
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "The man ascended and brushed the firmament.",
+    "bleurt_score": -1.3193548917770386
+  },
+  {
+    "input": "उसने आकाश छू लिया",
+    "reference": "He achieved great success",
+    "output": "The man lifted his hand and caressed the celestial expanse.",
+    "bleurt_score": -1.3018871545791626
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "Yesterday, I was very behind.",
+    "bleurt_score": 0.3773757815361023
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "I was quite behind yesterday.",
+    "bleurt_score": 0.33452925086021423
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "I had fallen quite far behind yesterday.",
+    "bleurt_score": 0.3979286551475525
+  },
+  {
+    "input": "कल मैं बहुत पीछे था",
+    "reference": "Yesterday I was far behind",
+    "output": "I had lagged considerably behind yesterday.",
+    "bleurt_score": 0.2445172369480133
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "Her eyes opened wide.",
+    "bleurt_score": -1.4095098972320557
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "The woman's eyes fluttered open.",
+    "bleurt_score": -1.3109171390533447
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "The woman's eyelids parted, revealing her eyes.",
+    "bleurt_score": -1.2206498384475708
+  },
+  {
+    "input": "उसकी आँखें खुल गईं",
+    "reference": "He realized the truth",
+    "output": "The woman blinked her eyes open.",
+    "bleurt_score": -1.3020116090774536
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our hands and feet have bloomed",
+    "bleurt_score": -1.739520788192749
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our palms and soles have flowered",
+    "bleurt_score": -1.797648310661316
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our fingers and toes have blossomed",
+    "bleurt_score": -1.8178597688674927
+  },
+  {
+    "input": "हमारे हाथ पाँव फूल गए",
+    "reference": "Unable to move freely",
+    "output": "Our limbs have become like flowers",
+    "bleurt_score": -1.720102071762085
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "The star of the eyes",
+    "bleurt_score": -1.6584131717681885
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "The celestial orb within the eyes",
+    "bleurt_score": -1.6715936660766602
+  },
+  {
+    "input": "आँखों का तारा है",
+    "reference": "Very beloved person",
+    "output": "The luminous celestial spark within the eyes",
+    "bleurt_score": -1.5589289665222168
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "That drop-by-drop is counting",
+    "bleurt_score": -1.2700488567352295
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "The droplets are being counted one by one",
+    "bleurt_score": -1.0189355611801147
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "The droplets are being tallied one by one",
+    "bleurt_score": -1.4690146446228027
+  },
+  {
+    "input": "वह बूंद-बूंंद गिन रहा है",
+    "reference": "He is calculating every little bit",
+    "output": "The droplets are being meticulously enumerated one by one",
+    "bleurt_score": -1.1109219789505005
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "He is sitting with his hands folded.",
+    "bleurt_score": 0.013487670570611954
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "The man is seated with his palms clasped together.",
+    "bleurt_score": -0.320574551820755
+  },
+  {
+    "input": "वह हाथ पर हाथ धरकर बैठा है",
+    "reference": "He is sitting idle",
+    "output": "The man is sitting with his palms pressed together.",
+    "bleurt_score": -0.31158095598220825
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "He has gone away.",
+    "bleurt_score": 0.5043634176254272
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "The man departed.",
+    "bleurt_score": 0.5054033398628235
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "The individual has departed the premises.",
+    "bleurt_score": -0.5174803733825684
+  },
+  {
+    "input": "वह चला गया",
+    "reference": "He left",
+    "output": "The person has left the area.",
+    "bleurt_score": -0.29897525906562805
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "He went up",
+    "bleurt_score": -1.0348013639450073
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "The man ascended upwards",
+    "bleurt_score": -1.3225823640823364
+  },
+  {
+    "input": "वह ऊपर गया",
+    "reference": "He died",
+    "output": "The individual proceeded upwards",
+    "bleurt_score": -1.3393774032592773
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He went to the Lord's abode.",
+    "bleurt_score": -1.3102500438690186
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "The divine being departed for the celestial realm.",
+    "bleurt_score": -1.6070224046707153
+  },
+  {
+    "input": "वह भगवान के पास चला गया",
+    "reference": "He died",
+    "output": "He went to the Lord.",
+    "bleurt_score": -1.3435735702514648
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "I am feeling cold.",
+    "bleurt_score": 0.3149641454219818
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "The chill is setting in on me.",
+    "bleurt_score": 0.27746209502220154
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "The temperature has dropped, leaving me chilled.",
+    "bleurt_score": 0.5008047819137573
+  },
+  {
+    "input": "मुझे ठंड लग रही है",
+    "reference": "The cold is stuck to me",
+    "output": "The cold has crept up on me.",
+    "bleurt_score": 0.38813233375549316
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "It is heavy.",
+    "bleurt_score": -1.6228318214416504
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "That bulky item appears quite weighty.",
+    "bleurt_score": -1.5529488325119019
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "The object appears to be quite heavy.",
+    "bleurt_score": -1.3858381509780884
+  },
+  {
+    "input": "वह भारी है",
+    "reference": "He is important",
+    "output": "The item in question seems to possess considerable weight.",
+    "bleurt_score": -1.136256456375122
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "His heart is big.",
+    "bleurt_score": -1.0281085968017578
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "The man's heart is quite large.",
+    "bleurt_score": -1.045534610748291
+  },
+  {
+    "input": "उसका दिल बड़ा है",
+    "reference": "He is generous",
+    "output": "The individual's heart is sizeable.",
+    "bleurt_score": -1.1334654092788696
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "It is clean.",
+    "bleurt_score": -1.24662446975708
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "The surface is spotless.",
+    "bleurt_score": -1.59597909450531
+  },
+  {
+    "input": "वह साफ है",
+    "reference": "He is clear",
+    "output": "The area appears pristine.",
+    "bleurt_score": -1.0788390636444092
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "It is light.",
+    "bleurt_score": -1.2300366163253784
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "The object is lightweight.",
+    "bleurt_score": -1.1915743350982666
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "The item feels quite lightweight.",
+    "bleurt_score": -1.1002379655838013
+  },
+  {
+    "input": "वह हल्का है",
+    "reference": "He is mild or not serious",
+    "output": "The article appears to be quite lightweight.",
+    "bleurt_score": -1.120423436164856
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "It is straight.",
+    "bleurt_score": -0.9429039359092712
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "That is direct.",
+    "bleurt_score": -0.592158317565918
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "The text is straightforward.",
+    "bleurt_score": -0.3513801097869873
+  },
+  {
+    "input": "वह सीधा है",
+    "reference": "He is simple or honest.",
+    "output": "The Hindi text conveys a sense of simplicity and directness.",
+    "bleurt_score": -0.7067152261734009
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "He spoke in a heavy voice.",
+    "bleurt_score": 0.3078645169734955
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "The man bellowed in a deep, resonant tone.",
+    "bleurt_score": -0.09892584383487701
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "The man rumbled in a deep, guttural tone.",
+    "bleurt_score": -0.38752588629722595
+  },
+  {
+    "input": "वह भारी आवाज़ में बोला",
+    "reference": "He spoke in a deep or serious tone.",
+    "output": "The man thundered in a deep, resonant voice.",
+    "bleurt_score": -0.4812227785587311
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "He is big.",
+    "bleurt_score": -0.8641949892044067
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "That one is quite large.",
+    "bleurt_score": -1.3956495523452759
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "The individual is of considerable size.",
+    "bleurt_score": -1.1004141569137573
+  },
+  {
+    "input": "वह बड़ा है",
+    "reference": "He is older",
+    "output": "The person is of significant stature.",
+    "bleurt_score": -1.0060843229293823
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "His face fell",
+    "bleurt_score": -0.5635282397270203
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "The man's expression turned somber",
+    "bleurt_score": -0.3118434548377991
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "The man's countenance grew somber",
+    "bleurt_score": -0.1574024111032486
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "The man's visage darkened",
+    "bleurt_score": -1.0924549102783203
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "His face fell",
+    "bleurt_score": -0.5635282397270203
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "The man's expression turned somber",
+    "bleurt_score": -0.3118434548377991
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "The man's countenance grew downcast",
+    "bleurt_score": -0.6783661246299744
+  },
+  {
+    "input": "उसका चेहरा उतर गया",
+    "reference": "He was disappointed",
+    "output": "The man's visage became somber",
+    "bleurt_score": -0.5451839566230774
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He does not do the work.",
+    "bleurt_score": -0.577747642993927
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "He is not performing that task.",
+    "bleurt_score": -0.8115162253379822
+  },
+  {
+    "input": "वह काम नहीं करता",
+    "reference": "He is unemployed",
+    "output": "That work is not something he engages in.",
+    "bleurt_score": -1.136928677558899
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "His mood is bad.",
+    "bleurt_score": -0.30897703766822815
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "The individual's disposition is quite poor.",
+    "bleurt_score": -0.6900525689125061
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "The person's emotional state is quite poor.",
+    "bleurt_score": -0.21962033212184906
+  },
+  {
+    "input": "उसका मूड खराब है",
+    "reference": "He is upset",
+    "output": "The man's temperament is quite poor.",
+    "bleurt_score": -0.7264571785926819
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "The water has gone.",
+    "bleurt_score": -1.8373637199401855
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "The water has vanished.",
+    "bleurt_score": -1.8042945861816406
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "The liquid has dissipated.",
+    "bleurt_score": -1.7789490222930908
+  },
+  {
+    "input": "वह जल गया",
+    "reference": "He is jealous",
+    "output": "The moisture has evaporated.",
+    "bleurt_score": -1.8071110248565674
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "It is open.",
+    "bleurt_score": -0.07852508127689362
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "The door is open.",
+    "bleurt_score": -0.7805679440498352
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "The passage is accessible.",
+    "bleurt_score": -0.053638700395822525
+  },
+  {
+    "input": "वह खुला है",
+    "reference": "It is available",
+    "output": "The way is clear.",
+    "bleurt_score": -1.0197436809539795
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "It broke in my hands",
+    "bleurt_score": -0.485326886177063
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "The object shattered in my grasp",
+    "bleurt_score": -0.08161059021949768
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "The item crumbled within my palms",
+    "bleurt_score": -0.33742183446884155
+  },
+  {
+    "input": "वह मेरे हाथों में टूट गया",
+    "reference": "He broke down in my hands",
+    "output": "The fragile object disintegrated in my grip",
+    "bleurt_score": -0.1272946447134018
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "His face is shining brightly.",
+    "bleurt_score": -0.8366301655769348
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "The man's countenance is radiant.",
+    "bleurt_score": -0.8855134844779968
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "The man's visage is gleaming with radiance.",
+    "bleurt_score": -1.068223476409912
+  },
+  {
+    "input": "उसका चेहरा चमक रहा है",
+    "reference": "He is happy",
+    "output": "The gentleman's face is shimmering with luminance.",
+    "bleurt_score": -1.2744133472442627
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "The hill moved.",
+    "bleurt_score": -1.6237833499908447
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "The hill shifted.",
+    "bleurt_score": -1.7482153177261353
+  },
+  {
+    "input": "वह हिल गया",
+    "reference": "He was emotionally taken",
+    "output": "The hill terrain shifted.",
+    "bleurt_score": -1.6063083410263062
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This matter is very important.",
+    "bleurt_score": 0.5335157513618469
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This is a significant matter.",
+    "bleurt_score": 0.552931010723114
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This matter is of great significance.",
+    "bleurt_score": 0.25286436080932617
+  },
+  {
+    "input": "यह बात बड़ी है",
+    "reference": "This matter is serious",
+    "output": "This Hindi text conveys a matter of great importance and significance.",
+    "bleurt_score": -0.9327064752578735
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "His health is poor.",
+    "bleurt_score": 0.4905933141708374
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "He is unwell.",
+    "bleurt_score": -0.013438977301120758
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "His condition is poor.",
+    "bleurt_score": 0.2864076495170593
+  },
+  {
+    "input": "उसकी तबीयत खराब है",
+    "reference": "He is sick",
+    "output": "His wellbeing is poor.",
+    "bleurt_score": -0.11245386302471161
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is walking.",
+    "bleurt_score": -1.7044717073440552
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is proceeding.",
+    "bleurt_score": -1.008349895477295
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is on the move.",
+    "bleurt_score": -1.0205433368682861
+  },
+  {
+    "input": "वह चल रहा है",
+    "reference": "It is ongoing / in progress",
+    "output": "He is making his way.",
+    "bleurt_score": -1.170133113861084
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "It is empty.",
+    "bleurt_score": -1.0609464645385742
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "It is vacant.",
+    "bleurt_score": -1.2796404361724854
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "The space is unoccupied.",
+    "bleurt_score": -1.2598516941070557
+  },
+  {
+    "input": "वह खाली है",
+    "reference": "He is free",
+    "output": "The location is vacant.",
+    "bleurt_score": -1.2333905696868896
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "His mind is empty.",
+    "bleurt_score": -1.0248385667800903
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "His mind is vacant.",
+    "bleurt_score": -1.3345540761947632
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "His mind is clear.",
+    "bleurt_score": -1.2654972076416016
+  },
+  {
+    "input": "उसका दिमाग ख़ाली है",
+    "reference": "He is stupid",
+    "output": "His mind is unoccupied.",
+    "bleurt_score": -1.1087161302566528
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "It is a heavy task.",
+    "bleurt_score": 0.4621478021144867
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That is a heavy task.",
+    "bleurt_score": 0.23753193020820618
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That appears to be a burdensome task.",
+    "bleurt_score": 0.338063508272171
+  },
+  {
+    "input": "वह भारी काम है",
+    "reference": "It is difficult work",
+    "output": "That heavy work appears to be quite burdensome.",
+    "bleurt_score": 0.11621248722076416
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "The fallen man is there.",
+    "bleurt_score": -1.0491043329238892
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "The man who has fallen is present.",
+    "bleurt_score": -1.1854634284973145
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "The man who has fallen down is present.",
+    "bleurt_score": -1.0404030084609985
+  },
+  {
+    "input": "वह गिरा हुआ आदमी है",
+    "reference": "He is corrupt",
+    "output": "The individual who has fallen lies there.",
+    "bleurt_score": -1.2854022979736328
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He is a sharp-minded individual.",
+    "bleurt_score": -0.09426462650299072
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "He has a keen intellect.",
+    "bleurt_score": 0.03595569357275963
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "That person possesses a keen and discerning mind.",
+    "bleurt_score": -0.4071882963180542
+  },
+  {
+    "input": "वह तेज दिमाग वाला है",
+    "reference": "He is clever",
+    "output": "That individual possesses a keen and perceptive intellect.",
+    "bleurt_score": -0.4692797362804413
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He spoke in a soft voice.",
+    "bleurt_score": 0.9201226234436035
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "He spoke in a gentle tone.",
+    "bleurt_score": 0.8543998003005981
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "The person spoke in a soft, mellow tone.",
+    "bleurt_score": 0.1608104109764099
+  },
+  {
+    "input": "वह हल्की आवाज़ में बोला",
+    "reference": "He spoke softly",
+    "output": "The person spoke in a soft, gentle manner.",
+    "bleurt_score": 0.23746716976165771
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He speaks loudly.",
+    "bleurt_score": 0.7599617838859558
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "He speaks in a loud voice.",
+    "bleurt_score": 0.6409819722175598
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "The man speaks in a booming voice.",
+    "bleurt_score": 0.5293805599212646
+  },
+  {
+    "input": "वह ऊँचा बोलता है",
+    "reference": "He speakes loudly",
+    "output": "The man speaks in a forceful, boisterous manner.",
+    "bleurt_score": 0.38625890016555786
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "He stands on his own two feet.",
+    "bleurt_score": -0.7500095963478088
+  },
+  {
+    "input": "वह अपने ही पैरों पर खड़ा है",
+    "reference": "He is indepenent",
+    "output": "The person is standing on their own two feet.",
+    "bleurt_score": -0.9521251916885376
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "The heart burns",
+    "bleurt_score": -1.8037532567977905
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "The heart is burning",
+    "bleurt_score": -1.7846187353134155
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "The soul is burning",
+    "bleurt_score": -1.7944425344467163
+  },
+  {
+    "input": "दिल जलना",
+    "reference": "Jealousy or Envy",
+    "output": "The heart is consumed by anguish",
+    "bleurt_score": -1.4969784021377563
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "His mind is troubled.",
+    "bleurt_score": -0.949610710144043
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "His mind is in a bad state.",
+    "bleurt_score": -0.529223620891571
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "His mental state is poor.",
+    "bleurt_score": -1.0412160158157349
+  },
+  {
+    "input": "उसका दिमाग खराब है",
+    "reference": "He is crazy",
+    "output": "His psyche is in a troubled state.",
+    "bleurt_score": -1.3034272193908691
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "Her speech was silenced.",
+    "bleurt_score": -1.3955085277557373
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "Her voice was silenced.",
+    "bleurt_score": -1.3819150924682617
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "Her words were silenced.",
+    "bleurt_score": -1.3345304727554321
+  },
+  {
+    "input": "उसकी बोलती बंद हो गई",
+    "reference": "He is speachless",
+    "output": "Her utterance was silenced.",
+    "bleurt_score": -1.377493143081665
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That is a large fish.",
+    "bleurt_score": -1.6707911491394043
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That big fish is impressive.",
+    "bleurt_score": -1.58176851272583
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That magnificent fish is truly impressive.",
+    "bleurt_score": -1.4745469093322754
+  },
+  {
+    "input": "वह बड़ी मछली है",
+    "reference": "He is powerful",
+    "output": "That colossal fish is truly breathtaking.",
+    "bleurt_score": -1.5566883087158203
+  },
+  {
+    "input": "वह बहुत हवा में उड़ रहा है",
+    "reference": "He is flying in the air a lot",
+    "output": "He is soaring high in the air.",
+    "bleurt_score": 0.26253533363342285
+  },
+  {
+    "input": "वह बहुत हवा में उड़ रहा है",
+    "reference": "He is flying in the air a lot",
+    "output": "The object is soaring high in the sky.",
+    "bleurt_score": -0.4078560173511505
+  },
+  {
+    "input": "वह बहुत हवा में उड़ रहा है",
+    "reference": "He is flying in the air a lot",
+    "output": "The object is gliding effortlessly through the vast expanse of the sky.",
+    "bleurt_score": -0.46919524669647217
+  },
+  {
+    "input": "वह बहुत हवा में उड़ रहा है",
+    "reference": "He is flying in the air a lot",
+    "output": "The object is drifting gracefully through the vast, boundless sky.",
+    "bleurt_score": -0.8576252460479736
+  },
+  {
+    "input": "उसके पेट में चूहे कूद रहे हैं",
+    "reference": "He is really hungry",
+    "output": "There are mice jumping in his belly.",
+    "bleurt_score": -1.3931561708450317
+  },
+  {
+    "input": "उसके पेट में चूहे कूद रहे हैं",
+    "reference": "He is really hungry",
+    "output": "There are mice scurrying inside his abdomen.",
+    "bleurt_score": -1.5096639394760132
+  },
+  {
+    "input": "उसके पेट में चूहे कूद रहे हैं",
+    "reference": "He is really hungry",
+    "output": "Rodents are scampering within his abdomen.",
+    "bleurt_score": -1.1442805528640747
+  },
+  {
+    "input": "उसके पेट में चूहे कूद रहे हैं",
+    "reference": "He is really hungry",
+    "output": "Vermin are scurrying within his gut.",
+    "bleurt_score": -1.1084133386611938
+  }
+]
